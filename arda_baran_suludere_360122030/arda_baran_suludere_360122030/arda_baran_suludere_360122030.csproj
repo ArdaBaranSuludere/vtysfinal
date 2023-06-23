@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FCED6E59-32E3-4686-849F-FA2719F6C4A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>arda_baran_suludere_360122030</RootNamespace>
+    <AssemblyName>arda_baran_suludere_360122030</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminAnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminAnaSayfa.Designer.cs">
+      <DependentUpon>adminAnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminAra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminAra.Designer.cs">
+      <DependentUpon>adminAra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminEkle.Designer.cs">
+      <DependentUpon>adminEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admingiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admingiris.Designer.cs">
+      <DependentUpon>admingiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminfilmkirala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminfilmkirala.Designer.cs">
+      <DependentUpon>adminfilmkirala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giris.Designer.cs">
+      <DependentUpon>giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminkiralanmis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminkiralanmis.Designer.cs">
+      <DependentUpon>adminkiralanmis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="uyeAnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uyeAnaSayfa.Designer.cs">
+      <DependentUpon>uyeAnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uyegiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uyegiris.Designer.cs">
+      <DependentUpon>uyegiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uyefilmara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uyefilmara.Designer.cs">
+      <DependentUpon>uyefilmara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uyekayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uyekayit.Designer.cs">
+      <DependentUpon>uyekayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uyekiralanmis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uyekiralanmis.Designer.cs">
+      <DependentUpon>uyekiralanmis.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="adminAnaSayfa.resx">
+      <DependentUpon>adminAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminAra.resx">
+      <DependentUpon>adminAra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminEkle.resx">
+      <DependentUpon>adminEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admingiris.resx">
+      <DependentUpon>admingiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminfilmkirala.resx">
+      <DependentUpon>adminfilmkirala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giris.resx">
+      <DependentUpon>giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminkiralanmis.resx">
+      <DependentUpon>adminkiralanmis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="uyeAnaSayfa.resx">
+      <DependentUpon>uyeAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uyefilmara.resx">
+      <DependentUpon>uyefilmara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uyegiris.resx">
+      <DependentUpon>uyegiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uyekayit.resx">
+      <DependentUpon>uyekayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uyekiralanmis.resx">
+      <DependentUpon>uyekiralanmis.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2063914.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arama2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arkaplan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-936278832-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1391013277-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pattern-369543_960_720 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ekleme2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ekleme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kirala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kiralanmis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
